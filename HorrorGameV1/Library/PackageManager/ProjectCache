@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638862927746398192
+      ticks: 638864754040706830
     m_Hash: 2816913809
   m_LockFileStatus:
     m_FilePath: C:/Users/Berkay/Desktop/Code/GitUnityProject/HorrorGameV1/HorrorGameV1/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638862927746458253
+      ticks: 638864754040746509
     m_Hash: 132222680
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}

@@ -15,8 +15,6 @@ public class Ladder : MonoBehaviour
     {
         player = GetComponent<FirstPersonController>();
         inside = false;
-
-
     }
 
     void OnTriggerEnter(Collider col)
@@ -24,12 +22,10 @@ public class Ladder : MonoBehaviour
 
         if (col.gameObject.tag == "Ladder")
         {
-            Debug.Log("TouchingLadderTrue");
+            //Debug.Log("TouchingLadderTrue");
             player.enabled = false;
             inside = !inside;
         }
-
-
     }
 
     void OnTriggerExit(Collider col)
@@ -37,12 +33,10 @@ public class Ladder : MonoBehaviour
 
         if (col.gameObject.tag == "Ladder")
         {
-            Debug.Log("TouchingLadderFalse");
+            //Debug.Log("TouchingLadderFalse");
             player.enabled = true;
             inside = !inside;
         }
-
-
     }
 
     void Update()

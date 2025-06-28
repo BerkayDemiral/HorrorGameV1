@@ -361,6 +361,7 @@
 "Assets/Scripts/Flashlight.cs"
 "Assets/Scripts/Ladder.cs"
 "Assets/Scripts/OpenBoxScript.cs"
+"Assets/Scripts/OpenBoxWithLootScript.cs"
 "Assets/Scripts/PickUpKey.cs"
 -langversion:9.0
 /deterministic

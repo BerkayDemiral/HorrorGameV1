@@ -25,7 +25,7 @@ public class OpenBoxWithLootScript : MonoBehaviour
 
     void Start()
     {
-        randomNumber = Random.Range(0, 5);
+        randomNumber = Random.Range(0, 6);
         inReach = false;
         openText.SetActive(false);
         keyMissingText.SetActive(false);

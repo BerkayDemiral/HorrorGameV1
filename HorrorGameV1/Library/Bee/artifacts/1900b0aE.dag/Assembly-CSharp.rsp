@@ -363,6 +363,7 @@
 "Assets/Scripts/OpenBoxScript.cs"
 "Assets/Scripts/OpenBoxWithLootScript.cs"
 "Assets/Scripts/PickUpKey.cs"
+"Assets/Scripts/WeaponSwitch.cs"
 -langversion:9.0
 /deterministic
 /optimize+

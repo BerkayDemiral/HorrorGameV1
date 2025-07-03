@@ -362,6 +362,8 @@
 "Assets/Scripts/Flashlight.cs"
 "Assets/Scripts/HUD.cs"
 "Assets/Scripts/Ladder.cs"
+"Assets/Scripts/LightCandles.cs"
+"Assets/Scripts/Lighter.cs"
 "Assets/Scripts/LightsFlicker.cs"
 "Assets/Scripts/LightSwitch.cs"
 "Assets/Scripts/OpenBoxScript.cs"

@@ -7,12 +7,14 @@ public class WeaponsSwitch : MonoBehaviour
     public GameObject object01;
     public GameObject object02;
     public GameObject object03;
+    public GameObject object04;
 
     void Start()
     {
         object01.SetActive(false);
         object02.SetActive(false);
         object03.SetActive(false);
+        object04.SetActive(false);
     }
 
     void Update()
@@ -22,6 +24,7 @@ public class WeaponsSwitch : MonoBehaviour
             object01.SetActive(true);
             object02.SetActive(false);
             object03.SetActive(false);
+            object04.SetActive(false);
         }
 
         if (Input.GetButtonDown("2"))
@@ -29,6 +32,7 @@ public class WeaponsSwitch : MonoBehaviour
             object01.SetActive(false);
             object02.SetActive(true);
             object03.SetActive(false);
+            object04.SetActive(false);
         }
 
         if (Input.GetButtonDown("3"))
@@ -36,6 +40,7 @@ public class WeaponsSwitch : MonoBehaviour
             object01.SetActive(false);
             object02.SetActive(false);
             object03.SetActive(true);
+            object04.SetActive(false);
         }
 
         if (Input.GetButtonDown("4"))
@@ -43,6 +48,15 @@ public class WeaponsSwitch : MonoBehaviour
             object01.SetActive(false);
             object02.SetActive(false);
             object03.SetActive(false);
+            object04.SetActive(true);
+        }
+
+        if (Input.GetButtonDown("5"))
+        {
+            object01.SetActive(false);
+            object02.SetActive(false);
+            object03.SetActive(false);
+            object04.SetActive(false);
         }
     }
 }

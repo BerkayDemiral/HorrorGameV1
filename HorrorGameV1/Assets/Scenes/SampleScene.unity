@@ -8877,6 +8877,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2080521602184488925}
+  - component: {fileID: 2080521602184488926}
   m_Layer: 0
   m_Name: KnifeFBXFile
   m_TagString: Untagged
@@ -9027,6 +9028,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1698402502258798506}
+  - component: {fileID: 2079010184079176977}
   m_Layer: 0
   m_Name: m4FBX
   m_TagString: Untagged
@@ -9034,6 +9036,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
+--- !u!114 &2079010184079176977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2079010184079176976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c723ba3524a5864185282e258a1ad31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  amount: 0.08
+  maxAmount: 0.75
+  smoothAmount: 6
 --- !u!4 &2080521602184488925
 Transform:
   m_ObjectHideFlags: 0
@@ -9050,6 +9067,21 @@ Transform:
   - {fileID: 2593585802585741723}
   m_Father: {fileID: 2038055550}
   m_LocalEulerAnglesHint: {x: -23.666, y: 20.243, z: -25.059}
+--- !u!114 &2080521602184488926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1699176419232054631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c723ba3524a5864185282e258a1ad31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  amount: 0.08
+  maxAmount: 0.75
+  smoothAmount: 6
 --- !u!122 &2149991545298057965
 Halo:
   m_ObjectHideFlags: 0
@@ -30084,6 +30116,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8069736471335285208}
+  - component: {fileID: 8069736471335285209}
   m_Layer: 0
   m_Name: GlockFBX
   m_TagString: Untagged
@@ -30587,6 +30620,21 @@ Transform:
   - {fileID: 8608859687726644429}
   m_Father: {fileID: 2038055550}
   m_LocalEulerAnglesHint: {x: 0, y: -91.101, z: 2.267}
+--- !u!114 &8069736471335285209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7257170626824399714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c723ba3524a5864185282e258a1ad31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  amount: 0.08
+  maxAmount: 0.75
+  smoothAmount: 6
 --- !u!33 &8082623820541414020
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -31017,6 +31065,7 @@ GameObject:
   - component: {fileID: 5110868498094399269}
   - component: {fileID: 6992265701494254575}
   - component: {fileID: 8793692701722266172}
+  - component: {fileID: 8793692701722266173}
   m_Layer: 0
   m_Name: LighterFBX
   m_TagString: Untagged
@@ -31040,6 +31089,21 @@ MonoBehaviour:
   flames: {fileID: 8695706754702429496}
   lighterSound: {fileID: 1555124729}
   isOn: 0
+--- !u!114 &8793692701722266173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8793692701722266170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c723ba3524a5864185282e258a1ad31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  amount: 0.08
+  maxAmount: 0.75
+  smoothAmount: 6
 --- !u!1 &8821853511510301819
 GameObject:
   m_ObjectHideFlags: 0

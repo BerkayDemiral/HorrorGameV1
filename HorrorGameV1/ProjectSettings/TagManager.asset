@@ -16,10 +16,10 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - NonReachable
+  - Reach
+  - Camera
+  - NightVision
   - 
   - 
   - 

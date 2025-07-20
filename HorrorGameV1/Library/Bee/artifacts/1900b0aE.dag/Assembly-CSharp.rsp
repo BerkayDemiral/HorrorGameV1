@@ -367,6 +367,7 @@
 "Assets/Scripts/Lighter.cs"
 "Assets/Scripts/LightsFlicker.cs"
 "Assets/Scripts/LightSwitch.cs"
+"Assets/Scripts/LookAtObjects.cs"
 "Assets/Scripts/OpenBoxScript.cs"
 "Assets/Scripts/OpenBoxWithLootScript.cs"
 "Assets/Scripts/PickUpKey.cs"
